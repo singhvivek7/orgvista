@@ -9,7 +9,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/orgvista-admin"
+        "outputPath": "dist/apps/orgvista-admin",
+        "postcssConfig": "apps/orgvista-admin/postcss.config.js"
       },
       "configurations": {
         "development": {
